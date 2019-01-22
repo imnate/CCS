@@ -12,7 +12,17 @@
 <img src ="Photo/學生端.jpg">
 </p>
 
+## 學生端操作流程
+<p align="center">
+<img src ="Photo/StdUML.jpg">
+</p>
+
 ## 老師端介面
 <p align="center">
 <img src ="Photo/老師端.jpg">
+</p>
+
+## 老師端操作流程
+<p align="center">
+<img src ="Photo/TeacherUML.jpg">
 </p>
