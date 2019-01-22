@@ -9,10 +9,10 @@
 
 ## 學生端介面
 <p align="center">
-<img src ="Photo/學生端.jpg" width = 700>
+<img src ="Photo/學生端.jpg">
 </p>
 
 ## 老師端介面
 <p align="center">
-<img src ="Photo/老師端.jpg" width = 800>
+<img src ="Photo/老師端.jpg">
 </p>
