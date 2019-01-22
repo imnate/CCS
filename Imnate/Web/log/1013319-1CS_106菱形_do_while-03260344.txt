@@ -1,0 +1,18 @@
+1013319-1.cpp
+Microsoft (R) Incremental Linker Version 12.00.21005.1
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:1013319-1.exe 
+1013319-1.obj 
+
+128 :: System.InvalidOperationException: ExecuteReader 必須有開啟與可用的 Connection。連接目前的狀態已關閉。
+   於 System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   於 OSMVA_UploadHW.upload.struceture_check(String course, String hw, String op_Struceture_path) 於 c:\Users\Imnate\Documents\Visual Studio 2013\Projects\OSMVA-UploadHW\OSMVA-UploadHW\CppJudge.aspx.cs: 行 174
+   於 OSMVA_UploadHW.upload.compiler_Click(Object sender, EventArgs e) 於 c:\Users\Imnate\Documents\Visual Studio 2013\Projects\OSMVA-UploadHW\OSMVA-UploadHW\CppJudge.aspx.cs: 行 116
+
+
+日誌新建時間: 2017-03-26 15:44:06

@@ -1,0 +1,2 @@
+Checking whether a year is leap year or not. Please input a year: 1555 is not a leap year.
+請按任意鍵繼續 . . . 

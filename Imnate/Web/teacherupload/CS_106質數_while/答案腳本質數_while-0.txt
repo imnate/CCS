@@ -1,0 +1,2 @@
+Please input an integer for listing all the primes less than the integer: Primes less than 1 are 
+請按任意鍵繼續 . . . 

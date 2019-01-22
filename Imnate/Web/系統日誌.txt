@@ -1,0 +1,40 @@
+==========  5/4  ===========
+upload.aspx 第一行裡面加了 validateRequest="false" 解決了
+textbox顯示程式碼問題
+
+P.S 改request的錯誤 會造成安全漏洞
+
+新增 比對按鈕 跟textbox2
+========== 5/11 ============
+
+excute.bat測試使用可以用
+session還未建立
+比對按鈕測試
+thread測試可以使用
+========== 5/12 ============
+session測試成功
+已經實現了抓到檔案名子不含附檔名
+Session["fsname"] = upfile;
+
+excute.bat
+參數跟時廷版本不一樣 %有些寫死路徑跟測試副本
+已經實現丟進去副本可以讀取檔案
+==========5/24==========
+修改了部分功能log檔案裡面新增時間'
+bat直接印在textbox上面，關掉開檔讀檔的寫法'
+測試比對功能可以比對要100%都是一樣才對
+if (string.Equals(TextBox3.Text,TextBox2.Text))//比對textbox3跟2是否一樣'
+測試給庭瑋的jar是否可以在asp上面用process實現 = true'
+==========5/26==========
+移植到server、IIS設定、SQL已安裝
+時廷概念:standardinput.write("值");可以跟.學生exe溝通，switch case 可以寫成靈活
+利用SQL前後端來溝通不要寫死，選單利用SQL來建立，random設定範圍，
+excute.bat基本上可以用不到直接用process.start();
+
+process測試是否能成為CMD
+
+＊編碼尚未解決 unicode (尚未解決)
+================6/8================
+建立了SQL實現了老師端新增副本並且可以將題目測試條件assign到資料庫
+
+之後要解決的是利用assign這個測試條件去跑老師的CPP，並且修該學生上傳那部分(目前是寫死狀態)

@@ -1,0 +1,10 @@
+﻿.scrollable-menu {
+    height: auto;
+    max-height: 600px;
+    overflow-x: hidden;
+}
+.headertekst 
+{
+      text-align: center;
+      width:100%
+ }

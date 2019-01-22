@@ -1,0 +1,14 @@
+Enter the salesperson (1 - 4), product number (1 - 5), and total sales.
+Enter -1 for the salesperson to end input.
+
+The total sales for each salesperson are displayed at the end of each row,
+and the total sales for each product are displayed at the bottom of each
+column.
+            1           2           3           4           5       Total
+1        0.00        0.00        0.00        0.00        0.00        0.00
+2     1000.00     5000.00        0.00        0.00        0.00     6000.00
+3     7000.00        0.00        0.00        0.00        0.00     7000.00
+4     8000.00        0.00        0.00        0.00      700.00     8700.00
+
+Total16000.00     5000.00        0.00        0.00      700.00
+請按任意鍵繼續 . . . 

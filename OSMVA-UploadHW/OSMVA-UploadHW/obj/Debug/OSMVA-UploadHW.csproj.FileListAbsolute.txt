@@ -1,0 +1,6 @@
+C:\Users\Imnate\Documents\Visual Studio 2013\Projects\OSMVA-UploadHW\OSMVA-UploadHW\bin\OSMVA-UploadHW.dll.config
+C:\Users\Imnate\Documents\Visual Studio 2013\Projects\OSMVA-UploadHW\OSMVA-UploadHW\bin\OSMVA-UploadHW.dll
+C:\Users\Imnate\Documents\Visual Studio 2013\Projects\OSMVA-UploadHW\OSMVA-UploadHW\bin\OSMVA-UploadHW.pdb
+C:\Users\Imnate\Documents\Visual Studio 2013\Projects\OSMVA-UploadHW\OSMVA-UploadHW\obj\Debug\OSMVA-UploadHW.dll
+C:\Users\Imnate\Documents\Visual Studio 2013\Projects\OSMVA-UploadHW\OSMVA-UploadHW\obj\Debug\OSMVA-UploadHW.pdb
+C:\Users\Imnate\Documents\Visual Studio 2013\Projects\OSMVA-UploadHW\OSMVA-UploadHW\obj\Debug\OSMVA-UploadHW.csprojResolveAssemblyReference.cache

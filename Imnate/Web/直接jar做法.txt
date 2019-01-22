@@ -1,0 +1,12 @@
+        Process p = new Process();
+        p.StartInfo.FileName = "java";
+        string jarPath = @"C:\Users\ImNaTE\Desktop\Web\ProgramTokenCounter.jar";
+        string cppPath = @"""C:\Users\ImNaTE\OneDrive\¬ã¨s\¶¥¼h\951544_dowhile.cpp""";
+        p.StartInfo.Arguments = String.Format("-jar {0} {1}", jarPath, cppPath);
+        p.StartInfo.RedirectStandardOutput = true;
+        p.StartInfo.RedirectStandardError = true;
+        p.StartInfo.UseShellExecute = false;
+        p.Start();
+        TextBox1.Text = p.StandardError.ReadToEnd();
+        TextBox2.Text = p.StandardOutput.ReadToEnd();
+        p.WaitForExit();

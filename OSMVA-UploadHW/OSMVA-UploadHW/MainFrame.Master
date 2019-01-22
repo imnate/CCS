@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainFrame.master.cs" Inherits="OSMVA_UploadHW.MainFrame" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>CppJudge</title>
+
+  <!-- jQuery and Bootstrap -->
+  <!-- <script src="lib/jquery-3.1.1/jquery-3.1.1.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+  <!-- CSS for Bootstrap -->
+  <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" />
+  <link rel="stylesheet" href="bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" />
+  
+<%--  <link rel="stylesheet" href="css/main.css" />--%>
+
+  <asp:ContentPlaceHolder ID="head" runat="server">
+  </asp:ContentPlaceHolder>
+
+  <style>
+    .submenu {
+      margin-left: 15px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <form id="mainForm" runat="server">
+
+    <asp:ScriptManager runat="server">
+      <Scripts>
+<%--        <asp:ScriptReference Name="jquery" />
+        <asp:ScriptReference Name="bootstrap" />--%>
+      </Scripts>
+    </asp:ScriptManager>
+
+    <div id="wrapper">
+
+      <!-- Fixed navbar -->
+         <!-- 
+     <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">             
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">線上程式作業批改</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            
+          </div>
+          
+        </div>
+      </nav>-->
+
+      <div class="container-fluid">
+        <div class="row">
+         
+          <div class="col-sm-12 main">
+
+            <asp:ContentPlaceHolder ID="mainContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+
+          </div>
+          <!-- /container -->
+
+        </div>
+      </div>
+
+    </div>
+  </form>
+
+</body>
+</html>
